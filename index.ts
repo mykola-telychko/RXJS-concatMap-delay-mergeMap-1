@@ -16,7 +16,7 @@ const subscribe = example.subscribe((val) =>
 );
 
 // showing the difference between concatMap and mergeMap
-const mergeMapExample = source
+const mergeMapExample = src$
   .pipe(
     // just so we can log this after the first example has run
     delay(5000),
